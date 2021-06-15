@@ -1,4 +1,3 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 //Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
@@ -6,7 +5,6 @@ public class Exe050 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Locale.setDefault(Locale.US);
 		
 		double peso;
 		
@@ -25,7 +23,6 @@ public class Exe050 {
 					menor = peso;
 				}
 			}
-			
 		}
 		
 		System.out.printf("O maior peso lido foi: %.1fKg\n",maior);
